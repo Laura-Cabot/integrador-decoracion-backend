@@ -1,0 +1,169 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #beb6bd34;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: url('assets/marmol2.webp') center/cover no-repeat fixed;
+}
+
+header {
+  background: linear-gradient(to right, #515252, #d0d0d0);
+  color: #fff;
+  padding: 2rem 0;
+  border-bottom: 3px solid #d1c6ac;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(218, 165, 32, 0.7);
+}
+
+header p {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #d0c6ae;
+  padding: 1.2rem 2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #d0c6ae;
+  font-weight: 600;
+}
+
+#productos {
+  background: linear-gradient(180deg, #f9f3f1, #fdfcfc);
+  padding: 4rem 0;
+  border-top: 2px solid #e0cfc0;
+  border-bottom: 2px solid #e0cfc0;
+}
+
+.titulo-productos {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #686464;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#filtroCategoria {
+  max-width: 180px;
+  border-color: #d0c6ae;
+}
+
+section h2,
+main h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #181818;
+  border-bottom: 2px solid #e0cfc0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+main,
+footer,
+section {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card {
+    height: 420px; /* mismo alto total */
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-img-top {
+ height: 280px !important; /* más alta */
+  object-fit: cover;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.card-body {
+ flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin: 0 0 0.3rem 0;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+}
+
+.card-text.fw-bold {
+  color: #d67873;
+  font-size: 0.95rem;
+  text-align: right;
+  margin-top: auto;
+}
+
+*/
+footer {
+  background-color: #181818;
+  padding: 2rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  background-color: #f3e3d7;
+  color: #181818;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+footer a:hover {
+  background-color: #e0cfc0;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  height: 500px !important;
+  object-fit: cover !important;
+}
+.btn-dorado {
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-dorado:hover {
+  background-color: #535350;
+  color: #fff;
+}

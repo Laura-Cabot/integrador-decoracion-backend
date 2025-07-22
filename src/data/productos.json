@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "nombre": "Vela aromática de vainilla",
+    "descripcion": "Vela de soja con aroma a vainilla, en frasco de vidrio esmerilado.",
+    "categoria": "velas",
+    "imagen": "https://i.pinimg.com/originals/66/03/04/660304fb7d73e4aef5cbdc88f7b7a2a4.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Florero cerámico blanco",
+    "descripcion": "Florero de cerámica blanca con detalles en dorado mate.",
+    "categoria": "floreros",
+    "imagen": "https://5.imimg.com/data5/SELLER/Default/2022/1/SL/SC/XG/145753246/cerami-500x500.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Cuadro minimalista en blanco y negro",
+    "descripcion": "Cuadro decorativo con marco negro y diseño abstracto.",
+    "categoria": "cuadros",
+    "imagen": "https://tse1.mm.bing.net/th/id/OIP.vK5ZWes513qPWC6LY_8vLQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 4,
+    "nombre": "Planta decorativa chica",
+    "descripcion": "Planta artificial en maceta blanca de cerámica.",
+    "categoria": "plantas",
+    "imagen": "https://tse1.mm.bing.net/th/id/OIP.sW6MaQXpkoVAnWdGQwXX-gHaHa?r=0&w=500&h=500&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 5,
+    "nombre": "Bandeja de madera rústica",
+    "descripcion": "Bandeja rectangular con bordes elevados, ideal para desayunos o decoración.",
+    "categoria": "bandejas",
+    "imagen": "https://m.media-amazon.com/images/I/81e-AYjGFVL._AC_SS450_.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Centro de mesa con flores secas",
+    "descripcion": "Decoración central con base de madera clara y flores preservadas.",
+    "categoria": "decoracion",
+    "imagen": "https://centrosdemesaparabautizos.com/wp-content/uploads/2021/03/centro-de-mesa-flores-secas-para-cenas.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Planta colgante artificial",
+    "descripcion": "Planta decorativa colgante en maceta de mimbre.",
+    "categoria": "plantas",
+    "imagen": "https://i.pinimg.com/originals/e3/83/ce/e383cedbe27c46631315643df066b513.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Vela decorativa estilo mármol",
+    "descripcion": "Vela grande con diseño marmolado en blanco y gris.",
+    "categoria": "velas",
+    "imagen": "https://img.freepik.com/fotos-premium/mesa-marmol-velas-planta-al-fondo_872754-2677.jpg?w=2000&size=626&ext=jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Cuadro botánico con marco blanco",
+    "descripcion": "Ilustración botánica impresa, ideal para cocinas o livings.",
+    "categoria": "cuadros",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.hlweBKyXDAmIymXL7vlUYQHaHa?r=0&pid=ImgDet&w=138&h=138&c=7&o=7&rm=3"
+  },
+  {
+    "id": 10,
+    "nombre": "Florero de vidrio transparente",
+    "descripcion": "Diseño cilíndrico clásico para combinar con cualquier ambiente.",
+    "categoria": "floreros",
+    "imagen": "https://images.nexusapp.co/assets/60/6b/63/116421067.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Set de velas aromáticas",
+    "descripcion": "Vela de soja con aroma a vainilla, en frasco de vidrio esmerilado.",
+    "categoria": "velas",
+    "imagen": "https://i.pinimg.com/736x/70/a9/b8/70a9b8bb62f8386a96388364e1435059.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Florero cerámico blanco #12",
+    "descripcion": "Florero de cerámica blanca con detalles en dorado mate.",
+    "categoria": "floreros",
+    "imagen": "https://i.pinimg.com/736x/24/d9/ea/24d9ead948bdd58787072b4d14b9fec0.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Cuadro minimalista abstracto ",
+    "descripcion": "Cuadro decorativo con marco negro y diseño abstracto.",
+    "categoria": "cuadros",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.jy9MBlUToLAgBfOhcHLRZwHaHa?r=0&pid=ImgDet&w=138&h=138&c=7&o=7&rm=3"
+  },
+  {
+    "id": 14,
+    "nombre": "Planta decorativa XXL",
+    "descripcion": "Planta artificial en maceta blanca de cerámica.",
+    "categoria": "plantas",
+    "imagen": "https://cdn.couchstyle.de/bilder/hauptbild/hier-ist-die-letzten-tage-ein-neuer-couchtisch-eingezogen-und-nicht-nur-ich-finde-ihn-wunderschoen-yoko-und-john-auch-__64827efb-62dd-4433-a101-f562ee918571.jpeg"
+  },
+  {
+    "id": 15,
+    "nombre": "Espejo redondo marco dorado",
+    "descripcion": "Espejo redondo con marco dorado, ideal para decorar cualquier ambiente sofisticado.",
+    "categoria": "decoracion",
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.b1QhtO10YUjaTj0QY5W2igHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=35"
+  },
+  {
+    "id": 16,
+    "nombre": "Objeto deco perro bulldog",
+    "descripcion": "Adorable figura decorativa de un perro bulldog, perfecta para amantes de los animales.",
+    "categoria": "decoracion",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_942644-MLA72010139629_092023-O.webp"
+  },
+  {
+    "id": 17,
+    "nombre": "Reloj de arena decorativo",
+    "descripcion": "Reloj de arena con base de bronce, ideal para decorar escritorios.",
+    "categoria": "decoracion",
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.L40dfI1zPPR3_N-y7kbh4gHaHa?r=0&pid=ImgDet&w=138&h=138&c=7&o=7&rm=3"
+  },
+  {
+    "id": 18,
+    "nombre": "Bandeja de marmol grande",
+    "descripcion": "Bandeja grande con diseño marmolado en blanco y gris con bordes finos doraddos.",
+    "categoria": "bandejas",
+    "imagen": "https://doradodecora.com/wp-content/uploads/2021/08/bandeja-dorada-decoracion.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Set de 3 cuadros modernos",
+    "descripcion": "Set de 3 cuadros decorativos con diseños nordicos en escala de grises.",
+    "categoria": "cuadros",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.NxFBQEweg2MHrRHH62RK_gHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 20,
+    "nombre": "Set de 2 bandejas redondas",
+    "descripcion": "Set de dos bandejas redondas de metal dorado combinado con la piedra, ideales para servir o decorar.",
+    "categoria": "bandejas",
+    "imagen": "https://decofilia.com/wp-content/uploads/2022/05/bandejas-decorativas-15-300x200.jpg"
+  }
+]

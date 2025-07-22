@@ -1,0 +1,15 @@
+# node_modules: dependencias, no se suben nunca
+node_modules/
+
+# dist: carpeta compilada de TypeScript
+dist/
+
+# .env: variables secretas como puertos o claves
+.env
+
+# .vscode: configuración local de tu editor
+.vscode/
+
+# logs
+*.log
+
