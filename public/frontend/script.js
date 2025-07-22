@@ -39,17 +39,30 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
+let paginaActual = 1;
+const productosPorPagina = 6;
+let todosLosProductos = [];
+
 function mostrarProductos(productos) {
+  todosLosProductos = productos;
+  renderizarPagina(paginaActual);
+}
+
+function renderizarPagina(pagina) {
+  const inicio = (pagina - 1) * productosPorPagina;
+  const fin = inicio + productosPorPagina;
+  const productosPagina = todosLosProductos.slice(inicio, fin);
+
   contenedorProductos.innerHTML = '';
 
-  if (!productos || productos.length === 0) {
+  if (productosPagina.length === 0) {
     contenedorProductos.innerHTML = `
       <p class="text-center text-muted">No se encontraron productos para esta categoría</p>
     `;
     return;
   }
 
-  productos.forEach(prod => {
+  productosPagina.forEach(prod => {
     const col = document.createElement('div');
     col.className = 'col-md-4 col-sm-6 mb-4';
 
@@ -68,3 +81,17 @@ function mostrarProductos(productos) {
   });
 }
 
+document.getElementById('nextPage').addEventListener('click', () => {
+  const totalPaginas = Math.ceil(todosLosProductos.length / productosPorPagina);
+  if (paginaActual < totalPaginas) {
+    paginaActual++;
+    renderizarPagina(paginaActual);
+  }
+});
+
+document.getElementById('prevPage').addEventListener('click', () => {
+  if (paginaActual > 1) {
+    paginaActual--;
+    renderizarPagina(paginaActual);
+  }
+});
