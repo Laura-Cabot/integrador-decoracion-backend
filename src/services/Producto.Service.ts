@@ -1,19 +1,23 @@
-import productos from '../data/productos.json';
-
 import { Producto } from '../models/Producto';
-
+import { ProductoRepository } from '../repositories/ProductoRepository';
+import fs from 'fs';
+import path from 'path';
 export class ProductoService {
-  private productos: Producto[] = productos;
+  private repository = new ProductoRepository();
 
   obtenerTodos(): Producto[] {
-    return this.productos;
+    return this.repository.getAll();
   }
 
-  obtenerPorId(id: number): Producto | undefined {
-    return this.productos.find(p => p.id === id);
+  obtenerPorId(id: string): Producto | undefined {
+    return this.repository.getById(id);
   }
 
   buscarPorCategoria(categoria: string): Producto[] {
-    return this.productos.filter(p => p.categoria.toLowerCase() === categoria.toLowerCase());
+    return this.repository.searchByCategoria(categoria);
+  }
+
+  reservarProducto(id: string): boolean {
+    return this.repository.reservarProducto(id);
   }
 }

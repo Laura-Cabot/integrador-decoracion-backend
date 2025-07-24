@@ -3,4 +3,9 @@ export interface Producto {
   nombre: string;
   descripcion: string;
   categoria: string;
+  imagen: string;
+  precio: number;
+  marca: string;
+  stock: number;
+  reservado?: boolean; 
 }
