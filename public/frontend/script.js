@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/productos";
+const API_URL = 'https://integrador-decoracion-backend.onrender.com/productos';
 
 const filtroCategoria = document.getElementById("filtroCategoria"); //
 const contenedorProductos = document.getElementById("productosContainer");
