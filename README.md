@@ -1,20 +1,28 @@
-
 # Million Home Designs
 
-Bienvenidos a **Million Home Designs**, un proyecto que nació del amor por la decoración y el diseño con alma. Esta página fue desarrollada con mucho esfuerzo, cariño y atención al detalle, como parte de mi formación como **Desarrolladora Web Full Stack**.
+Bienvenidos a **Million Home Designs**, un proyecto que nació del amor por la decoración y el diseño con alma.  
+Esta página fue desarrollada con mucho esfuerzo, cariño y atención al detalle, como parte de mi formación como **Desarrolladora Web Full Stack**.
 
-Sé que el **backend** tiene un rol clave y lo aprendí y trabajé en profundidad, pero tengo que confesarlo: **soy una apasionada del diseño visual**, por eso disfruto muchísimo más el **frontend**. Cada elección de color, tipografía, imagen y sección fue pensada para transmitir armonía y estilo. Y lo más importante: **las fotos que ves son reales**, son de mi cuenta de Instagram y de decoraciones que hice con mucho amor.
+Sé que el backend tiene un rol clave y lo aprendí y trabajé en profundidad, pero la verdad me apasiona el diseño y por eso mismo me gusta creo mas  el frontend.  
+Cada elección de color, tipografía, imagen y sección fue pensada para transmitir armonía y estilo.  
+Y lo más importante: LAS FOTOS DE DECORACION SON REALES, son de mi cuenta de Instagram y de decoraciones que hice con mucho amor.
+
+---
+
+## 🌐 Proyecto Online
+- **Frontend:** [https://laura-cabot.github.io/integrador-decoracion-backend/](https://laura-cabot.github.io/integrador-decoracion-backend/)
+- **Backend (API):** [https://integrador-decoracion-backend.onrender.com/productos](https://integrador-decoracion-backend.onrender.com/productos)
 
 ---
 
 ##  ¿Qué ofrece esta web?
 
--  **Catálogo dinámico de productos decorativos**, como velas, floreros, bandejas, cuadros y más.
--  **Galería con fotos reales** de ambientaciones, tomadas de mi propia experiencia y hogar.
--  **Asesoramiento personalizado** para quienes buscan transformar sus espacios.
--  **Formulario de contacto** funcional y real.
--  **Diseño responsive** con Bootstrap, adaptable a cualquier dispositivo.
--  Estética **emocional, elegante y cuidada**, con transparencias y detalles dorados.
+- **Catálogo dinámico de productos decorativos**, como velas, floreros, bandejas, cuadros y más.
+- **Galería con fotos reales** de ambientaciones, tomadas de mi propia experiencia y hogar.
+- **Asesoramiento personalizado** para quienes buscan transformar sus espacios.
+- **Formulario de contacto** funcional y real.
+- **Diseño responsive** con Bootstrap, adaptable a cualquier dispositivo.
+- Estética **emocional, elegante y cuidada**, con transparencias y detalles dorados.
 
 ---
 
@@ -32,7 +40,7 @@ Sé que el **backend** tiene un rol clave y lo aprendí y trabajé en profundida
 
 ## Estructura del proyecto
 
-- `public/frontend/`: contiene el HTML, CSS, imágenes y scripts visibles desde el navegador.
+- `docs/`: contiene el HTML, CSS, imágenes y scripts del frontend (publicados en GitHub Pages).
 - `src/`: carpeta de desarrollo en TypeScript con controladores, rutas, servicios y configuración del servidor.
 - `data/productos.json`: archivo simulado de base de datos con los productos decorativos.
 - `dist/`: carpeta generada automáticamente al compilar el backend con TypeScript.
@@ -52,7 +60,7 @@ npm install
 3. Compilá el backend:
 
 ```bash
-tsc
+npm run build
 ```
 
 4. Iniciá el servidor (API):
@@ -61,7 +69,7 @@ tsc
 npm run dev
 ```
 
-5. Abrí el archivo `index.html` desde la carpeta `public/frontend` con **Live Server** o en un navegador.
+5. Abrí el archivo `index.html` desde la carpeta `docs` con **Live Server** o en un navegador.
 
 > ⚠️ **IMPORTANTE:** El frontend se conecta al backend mediante `fetch` en `http://localhost:3000`.  
 > Si el backend no está levantado, los productos **no se cargarán** y aparecerá un error `Failed to fetch`.
@@ -90,20 +98,7 @@ Este backend es completamente funcional, simula una base de datos con un archivo
 
 Por motivos personales no pude asistir a todas las clases, pero me esforcé muchísimo para aprender por mi cuenta, investigar y cumplir con la consigna. Me aseguré de crear una API funcional, separada del frontend, como se hace profesionalmente.
 
-
----
-
-##  Uso de Bootstrap
-
-Aunque no era obligatorio para esta entrega, decidí usar **Bootstrap 5.3** para facilitar el diseño responsive del sitio y asegurarme de que funcione correctamente en cualquier dispositivo. Esto me permitió enfocarme en otras funcionalidades importantes del proyecto sin perder tiempo innecesariamente en media queries desde cero.
-
-En un trabajo profesional, la adaptabilidad a distintos dispositivos es fundamental, por eso consideré importante incorporarlo.
-
-
----
-
 ---
 
 Gracias por visitar este proyecto.  
-Cada sección fue pensada, codificada y diseñada con dedicación.  
-
+Cada sección fue pensada, codificada y diseñada con dedicación.
